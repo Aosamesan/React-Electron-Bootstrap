@@ -1,0 +1,7 @@
+dist/
+node_modules/
+public/css
+public/js
+electron-public/
+transpiled/
+package-lock.json
