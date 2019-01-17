@@ -4,7 +4,7 @@
   "description": "Hello World!",
   "main": "index.js",
   "scripts": {
-    "react": "react-scripts start",
+    "react": "npx react-scripts start",
     "build": "gulp react-webpack",
     "electron": "npm run build && electron .",
     "electron-build": "build",
@@ -35,7 +35,6 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",
-    "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1"
   },

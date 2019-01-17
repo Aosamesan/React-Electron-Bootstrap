@@ -1,4 +1,5 @@
 import { connect } from 'react-redux'
+import { withRouter } from 'react-router-dom'
 import ViewComponent from "./component"
 
-export const App = connect(state => ({}), dispatch => ({}))(ViewComponent)
+export const App = withRouter(connect(state => ({}), dispatch => ({}))(ViewComponent))
